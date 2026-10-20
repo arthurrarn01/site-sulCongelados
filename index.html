@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Sul congelados</title>
+  <meta name="description" content="Sul Congelados - Pescados frescos e qualidade para sua mesa." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon (ícone da aba do navegador) -->
+  <link rel="icon" href="favicon.ico?v=3" sizes="any" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=3" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png?v=3" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================== -->
+  <!-- CABEÇALHO / MENU -->
+  <!-- =============================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">
+        <img class="logo__icon" src="logo-sul.png" alt="Logo Sul" />
+        <span class="logo__text">
+          <span class="logo__name" id="logoNome">[NOME DA PEIXARIA]</span>
+          <span class="logo__slogan" id="logoSlogan">[SLOGAN DA PEIXARIA]</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre nós</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#localizacao" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =============================== -->
+  <!-- HERO / INÍCIO -->
+  <!-- =============================== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <div class="hero__scene">
+        <img src="barco-fundo.jpg" alt="Barco azul na praia" />
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__selos">
+          <img class="selo selo--sim" src="selo-sim.png" alt="Selo S.I.M. 012 - Inspecionado - Secretaria da Agricultura - Sapiranga/RS" />
+          <img class="selo" src="selo-susaf.png" alt="Selo SUSAF-RS - Produto da Agroindústria Familiar" />
+        </div>
+      <div class="wave-decor"></div>
+    </div>
+
+    <div class="container hero__content">
+      <div class="hero__col">
+      <p class="hero__eyebrow" id="heroSlogan">[SLOGAN DA PEIXARIA]</p>
+      <h1 class="hero__title" id="heroTitulo">Pescados frescos e qualidade para sua mesa.</h1>
+      <p class="hero__text" id="heroTexto">
+        [TEXTO DE APRESENTAÇÃO: fale um pouco sobre a peixaria, a seleção dos produtos e o compromisso com a qualidade.]
+      </p>
+
+      <div class="hero__buttons">
+        <a href="#localizacao" class="btn btn--primary">Entre em contato</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== -->
+  <!-- SOBRE NÓS -->
+  <!-- =============================== -->
+  <section class="section section--dark" id="sobre">
+    <div class="container about__grid">
+      <div class="about__image fade-in">
+        <img src="sobre-loja.jpg" alt="Interior da loja Sul Congelados com freezers e adega" />
+      </div>
+
+      <div class="about__content fade-in">
+        <h2 class="section__title section__title--left">Sobre Nós</h2>
+        <p class="about__text" id="sobreTexto">
+          Conheça a Sul Congelados: nossa missão, nossa visão e os valores que guiam o nosso trabalho.
+        </p>
+
+        <div class="about__pillars">
+          <div class="pillar">
+            <h3 class="pillar__title">Missão</h3>
+            <p>Nossa missão é trazer qualidade e praticidade para o dia a dia das pessoas, fornecendo uma alimentação saudável e equilibrada.</p>
+            <p>Todos os produtos, seja os filés congelados, empanados, peixes inteiros, passam por testes e análises, garantindo a qualidade na sua mesa.</p>
+          </div>
+          <div class="pillar">
+            <h3 class="pillar__title">Visão</h3>
+            <p>Nossa visão é tornar conhecida a marca <strong>Sul Congelados</strong> por sua qualidade e praticidade, alcançando o maior número de estabelecimentos no Estado do Rio Grande do Sul.</p>
+          </div>
+          <div class="pillar">
+            <h3 class="pillar__title">Valores</h3>
+            <ul class="pillar__list">
+              <li>Clientes em 1º lugar</li>
+              <li>Estreito relacionamento de nossa marca com o consumidor</li>
+              <li>Qualidade</li>
+              <li>Comprometimento</li>
+              <li>Respeito</li>
+              <li>Ética</li>
+              <li>Transparência</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Divisor entre "Sobre nós" e a galeria -->
+  <div class="wave-divider wave-divider--top" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,70 1440,20 L1440,80 L0,80 Z"/></svg>
+  </div>
+
+  <!-- =============================== -->
+  <!-- GALERIA (CARROSSEL) -->
+  <!-- =============================== -->
+  <section class="section section--blue" id="galeria">
+    <div class="container">
+      <div class="section__head fade-in">
+        <h2 class="section__title">Conheça nossa peixaria</h2>
+        <p class="section__subtitle">Veja um pouco do nosso dia a dia.</p>
+      </div>
+
+      <!-- Os slides são montados pelo script.js a partir de CONFIG.carrossel -->
+      <div class="carousel fade-in" id="carousel" tabindex="0" aria-roledescription="carrossel" aria-label="Fotos da peixaria">
+        <div class="carousel__viewport">
+          <div class="carousel__track" id="carouselTrack"></div>
+        </div>
+        <button class="carousel__btn carousel__btn--prev" id="carouselPrev" aria-label="Foto anterior">&#10094;</button>
+        <button class="carousel__btn carousel__btn--next" id="carouselNext" aria-label="Próxima foto">&#10095;</button>
+        <div class="carousel__dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave-divider wave-divider--bottom" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C240,80 480,0 720,30 C960,60 1200,70 1440,20 L1440,80 L0,80 Z"/></svg>
+  </div>
+
+  <!-- =============================== -->
+  <!-- LOCALIZAÇÃO / HORÁRIOS -->
+  <!-- =============================== -->
+  <section class="section" id="localizacao">
+    <div class="container">
+      <div class="section__head fade-in">
+        <h2 class="section__title">Onde estamos</h2>
+        <p class="section__subtitle">Venha nos visitar ou entre em contato.</p>
+      </div>
+
+      <div class="location__grid">
+        <div class="location__info fade-in">
+          <ul class="info-list">
+            <li><span class="info-list__icon">📍</span><div><strong>Endereço</strong><span id="infoEndereco">[ENDEREÇO]</span></div></li>
+            <li><span class="info-list__icon">🏙️</span><div><strong>Cidade</strong><span id="infoCidade">[CIDADE - ESTADO]</span></div></li>
+            <li><span class="info-list__icon">📞</span><div><strong>Telefone</strong><span id="infoTelefone">[TELEFONE]</span></div></li>
+            <li><span class="info-list__icon">📱</span><div><strong>WhatsApp</strong><span id="infoWhatsapp">[WHATSAPP]</span></div></li>
+          </ul>
+
+          <div class="social">
+            <a href="#" id="socialInstagram" class="social__link" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" id="socialFacebook" class="social__link" target="_blank" rel="noopener">Facebook</a>
+          </div>
+
+          <h3 class="hours__title">Horário de Funcionamento</h3>
+          <table class="hours__table" id="hoursTable">
+            <thead>
+              <tr><th>Dia</th><th>Horário</th></tr>
+            </thead>
+            <tbody>
+              <!-- Preenchido via JavaScript a partir de CONFIG.horarios -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="location__map fade-in">
+          <div class="map-placeholder">
+            <iframe
+              title="Mapa de localização"
+              src="https://www.google.com/maps?q=Rua+Kraemer-Eck,+258+-+Centen%C3%A1rio,+Sapiranga+-+RS,+93800-440&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================== -->
+  <!-- RODAPÉ -->
+  <!-- =============================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo" id="footerNome">[NOME DA PEIXARIA]</span>
+        <p class="footer__slogan" id="footerSlogan">[SLOGAN DA PEIXARIA]</p>
+        <div class="social social--footer">
+          <a href="#" id="footerInstagram" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" id="footerFacebook" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#localizacao">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <p id="footerEndereco">[ENDEREÇO]</p>
+        <p id="footerTelefone">[TELEFONE]</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="footerAno">[ANO]</span> <span id="footerNomeBottom">[NOME DA PEIXARIA]</span>. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- =============================== -->
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
+  <!-- =============================== -->
+  <a href="#" id="whatsappFloat" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale pelo WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" fill="currentColor"><path d="M16.001 3C9.373 3 4 8.373 4 15.001a11.94 11.94 0 0 0 1.63 6.043L4 29l8.132-1.6A11.95 11.95 0 0 0 16.001 27C22.629 27 28 21.627 28 15.001 28 8.373 22.629 3 16.001 3zm0 21.818a9.78 9.78 0 0 1-5.006-1.376l-.36-.213-4.83.95.98-4.71-.235-.376a9.79 9.79 0 0 1-1.507-5.09c0-5.41 4.404-9.813 9.958-9.813 5.412 0 9.816 4.403 9.816 9.813 0 5.412-4.404 9.815-9.816 9.815zm5.386-7.354c-.294-.147-1.74-.858-2.01-.957-.27-.098-.467-.147-.664.148-.196.294-.762.957-.934 1.153-.172.196-.343.221-.637.074-.294-.148-1.242-.457-2.365-1.457-.874-.78-1.464-1.744-1.636-2.038-.172-.294-.018-.453.13-.6.133-.132.294-.343.442-.515.147-.172.196-.294.294-.49.098-.196.049-.368-.025-.516-.074-.147-.664-1.6-.91-2.19-.24-.577-.484-.499-.664-.508l-.565-.01c-.196 0-.516.074-.786.368-.27.294-1.03 1.006-1.03 2.454 0 1.447 1.055 2.846 1.202 3.042.147.196 2.077 3.17 5.034 4.444.703.303 1.252.484 1.68.62.706.224 1.348.192 1.856.117.566-.085 1.74-.712 1.986-1.4.246-.688.246-1.278.172-1.4-.074-.123-.27-.196-.564-.343z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
